@@ -1,0 +1,45 @@
+<div class="row-fluid">
+<div class="span4">
+    <div class="widget floating-element">
+        <h4>JOIN</h4>
+        <p>
+            Golden Gate Wrestling Club is open to anyone with an interest in
+            freestyle wrestling or Greco-Roman wrestling. This includes men and
+            women at all skill levels. Height, weight, gender, race, age,
+            disability, and intelligence can be mixed in any proportion to
+            produce good wrestlers &mdash; and good coaches!
+        </p>
+        <a href="<%= membership_url -%>" class="btn btn-primary btn-block">JOIN</a>
+    </div>
+</div>
+
+<div class="span4">
+    <div class="widget floating-element about">
+        <img src="assets/wrestling-watercolor.jpg" />
+        <p>
+            Golden Gate Wrestling Club is a non-profit, volunteer-run club
+            devoted to the promotion of amateur wrestling in the San Francisco
+            Bay Area. Run with the cooperation and support of the San Francisco
+            Park and Recreation Department, GGWC offers coaching, training and
+            competition opportunities for local freestyle, Greco-Roman and
+            folkstyle wrestlers.
+        </p>
+    </div>
+</div>
+
+<div class="span4">
+    <div class="widget floating-element">
+        <h4>PRACTICE</h4>
+        <p>
+            Practices are held at <a href="http://goo.gl/maps/U7v1Y" target="_blank">Eureka Valley Rec Center, 18th and Collingwood</a>.
+        </p>
+        <ul class="schedule">
+            <li>Tuesday/Friday: 7-9pm</li>
+            <li>Saturday: noon-2pm</li>
+        </ul>
+    </div>
+</div>
+
+<% content_for :styles do -%>
+  <%= stylesheet_link_tag "home", :media => "all" %>
+<% end -%>

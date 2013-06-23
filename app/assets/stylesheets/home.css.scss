@@ -1,0 +1,20 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.widget {
+    padding: 20px; }
+
+.widget.about {
+    padding: 0px 0px 10px; }
+
+.widget.about p {
+    padding: 20px 20px 0px; }
+
+.widget img {
+    width: 100%; }
+
+h4 {
+    border-bottom: 1px solid #444444;
+    margin: 0px 0px 10px;
+    padding-bottom: 10px;
+    text-align: center; }

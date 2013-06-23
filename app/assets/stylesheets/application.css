@@ -1,0 +1,73 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require bootstrap/bootstrap.min
+ *= require bootstrap/bootstrap-responsive.min
+ *= require_self
+ */
+body, html {
+    height: 100%; }
+
+body {
+    background: #FFB900;/*url(../images/bg_gradient.png) top left repeat-x*/;
+    font-family: Arial, Verdana, Helvetica, sans-serif; }
+
+#page-frame {
+    min-height: 100%; }
+
+#page-header {
+    background: url(header_1.png) top left no-repeat;
+    height: 200px;
+    margin: -1px 0px 20px;
+    position: relative; }
+
+#page-tabs {
+    background: #000000;
+    bottom: 0px;
+    height: 36px;
+    list-style-type: none;
+    margin: 0px;
+    position: absolute;
+    width: 100%; }
+
+#page-tabs li {
+    background: url(nav_divider.png) center right no-repeat;
+    float: left;
+    padding-right: 1px; }
+
+#page-tabs li.last {
+    background: transparent; }
+
+#page-tabs a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 36px;
+    padding: 0px 19px 0px 20px;
+    text-decoration: none; }
+
+#page-tabs li a:hover {
+    background: #444444; }
+
+#page-body {
+    padding-bottom: 20px; }
+
+.floating-element {
+    background: #FFFFFF;
+    border: 1px solid #444444;
+    -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5); }
+ 
+@media (max-width: 767px) {
+    [class*="span"] {
+        margin-bottom: 5px; }
+}
